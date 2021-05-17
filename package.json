@@ -1,7 +1,7 @@
 {
-  "name": "Express Apollo GraphQL Template",
+  "name": "express-apollo-graphql-template",
   "version": "1.0.0",
-  "description": "A template for quick startup in a apollo express graphql server with typescript.
+  "description": "A template for quick startup in a apollo express graphql server with typescript.",
   "main": "build/server.js",
   "scripts": {
     "start": "node build/server.js",
@@ -17,14 +17,14 @@
     "apollo",
     "express",
     "graphql",
-    "template", 
+    "template",
     "typescript"
   ],
   "author": "Andi Uchiha",
   "license": "MIT",
   "bugs": {
-    "url": ".com/AndiUchiha1/apollo-graphql-server-template/issues"
-  },https://github
+    "url": "https://github.com/AndiUchiha1/apollo-graphql-server-template/issues"
+  },
   "homepage": "https://github.com/AndiUchiha1/apollo-graphql-server-template/blob/master/README.md",
   "dependencies": {
     "apollo-datasource-rest": "^0.12.0",
