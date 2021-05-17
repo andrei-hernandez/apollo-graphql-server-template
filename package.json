@@ -1,7 +1,7 @@
 {
-  "name": "rest-to-api-graphql",
+  "name": "Express Apollo GraphQL Template",
   "version": "1.0.0",
-  "description": "API GRaphQL F1 desde API Rest mediante RestDataSource",
+  "description": "A template for quick startup in a apollo express graphql server with typescript.
   "main": "build/server.js",
   "scripts": {
     "start": "node build/server.js",
@@ -11,20 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mugan86/rest-to-api-graphql.git"
+    "url": "https://github.com/AndiUchiha1/apollo-graphql-server-template"
   },
   "keywords": [
-    "ergast",
-    "api-rest-to-graphql",
+    "apollo",
+    "express",
     "graphql",
-    "rest-data-source"
+    "template", 
+    "typescript"
   ],
-  "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
+  "author": "Andi Uchiha",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mugan86/rest-to-api-graphql/issues"
-  },
-  "homepage": "https://github.com/mugan86/rest-to-api-graphql#readme",
+    "url": ".com/AndiUchiha1/apollo-graphql-server-template/issues"
+  },https://github
+  "homepage": "https://github.com/AndiUchiha1/apollo-graphql-server-template/blob/master/README.md",
   "dependencies": {
     "apollo-datasource-rest": "^0.12.0",
     "apollo-server": "^2.23.0",
