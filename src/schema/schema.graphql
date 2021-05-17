@@ -1,0 +1,11 @@
+#Here create your Schema
+type Query {
+  hello: String!
+  helloWithName(name: String!): String!
+  helloToApolloGraphQLTemplate: String!
+  list: [String]
+}
+
+type Mutation {
+  add(value: String!): [String]
+}
