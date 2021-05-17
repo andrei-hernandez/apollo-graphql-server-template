@@ -7,7 +7,8 @@
     "start": "node build/server.js",
     "build": "tsc -p . && ncp src/schema build/schema",
     "start:dev": "npm run build:dev",
-    "build:dev": "nodemon \"src/server.ts\" --exec \"ts-node\" src-server.ts -e ts,graphql,json"
+    "build:dev": "nodemon \"src/server.ts\" --exec \"ts-node\" src-server.ts -e ts,graphql,json",
+    "deploy": "yarn run build && vercel --prod"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "graphql": "^15.5.0",
     "graphql-import-node": "0.0.4",
     "graphql-playground-middleware-express": "^1.7.22",
+    "graphql-tag-pluck": "^0.8.7",
     "graphql-tools": "^7.0.4",
     "http": "0.0.0",
     "merge-graphql-schemas": "^1.7.0",
